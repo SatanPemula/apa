@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const statusContainer = document.getElementById('status-container');
-    const apiUrl = 'https://www.growtopiagame.com/detail';
+    const apiUrl = 'https://arunika.top/growtopia/gtstatus';
 
     fetch(apiUrl)
         .then(response => response.json())
