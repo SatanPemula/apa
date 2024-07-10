@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             console.log(data); // Untuk debugging
             statusContainer.innerHTML = `
-                <h2>Status: Online</h2>
                 <p>Players online: ${data.online_user}</p>
             `;
         })
